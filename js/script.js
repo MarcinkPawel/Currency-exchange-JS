@@ -33,10 +33,6 @@
         }
     }
 
-
-
-
-
     const amountElement = document.querySelector(".js-amount");
     const resultElement = document.querySelector(".js-result");
 
