@@ -9,6 +9,8 @@
     const rub = 0.04;
     const chf = 5.02;
 
+    const exchangeRateElement = document.querySelector(".js-exchangeRate");
+
     const chooseCurrency = (currencyToElement) => {
         switch (currencyToElement.value) {
             case "PLN":
@@ -30,15 +32,9 @@
                 return exchangeRateElement.innerText = chf;
         }
     }
-    const exchangeRateElement = document.querySelector(".js-exchangeRate");
 
-    formElement.addEventListener("input", (event) => {
-        event.preventDefault();
 
-        let showCurrency = chooseCurrency(currencyToElement);
 
-        exchangeRateElement.innerText = showCurrency;
-    })
 
 
     const amountElement = document.querySelector(".js-amount");
@@ -63,6 +59,14 @@
                 return amountElement.value / chf;
         }
     }
+
+    formElement.addEventListener("input", (event) => {
+        event.preventDefault();
+
+        let showCurrency = chooseCurrency(currencyToElement);
+
+        exchangeRateElement.innerText = showCurrency;
+    })
 
     formElement.addEventListener("submit", (rate) => {
         rate.preventDefault();
