@@ -4,6 +4,7 @@
     border-radius: 6px;
     padding: 5px;
     margin: 10px;
+    
 }
 
 .form__legend {
@@ -46,7 +47,7 @@
 .form__input {
     padding: 5px;
     border-radius: 3px;
-    border: none;
+    border: 1px solid black;
 }
 
 .form__submit {

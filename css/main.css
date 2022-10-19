@@ -1,7 +1,9 @@
 .main {
     font-family: 'Roboto Mono', monospace;
     max-width: 800px;
-    background-color: rgb(181, 215, 253);
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
     margin: 20px auto;
 
 }
