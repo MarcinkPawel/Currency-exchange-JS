@@ -1,7 +1,7 @@
 # Currency Exchange
 
 Simple currency exchange web calculator.
-[See the project](https://marcinkpawel.github.io/currency-exchange/)
+[See the project](https://marcinkpawel.github.io/Currency-exchange-JS/)
 
 ## Usage
 
